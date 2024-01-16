@@ -1,0 +1,12 @@
+package vo;
+
+public class BoardVo {
+ 
+	private int num;
+	private String subject;
+	private String name;
+	private int hit;
+	// 필요하면 더 추가하면 된다
+	
+
+}

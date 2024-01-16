@@ -1,0 +1,8 @@
+package vo;
+
+public class EmpVo {
+	String employee_id;
+	String last_name;
+	String job_id;
+	String phone_number;
+}

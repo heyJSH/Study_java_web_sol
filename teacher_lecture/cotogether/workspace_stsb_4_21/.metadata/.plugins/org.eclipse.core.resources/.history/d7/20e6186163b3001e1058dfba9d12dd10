@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.sql.*" %>
+<%@ page import="utils.DBConfig" %>    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<%
+		// 클라이언트 폼정보를 받음
+		String empName = request.getParameter("employeeName");
+		String subject = request.getParameter("postTitle");
+		String content = request.getParameter("postContent");
+		
+		// 디비접속 (주의사항: import 먼저해야 사용가능)
+		
+	%>
+</body>
+</html>

@@ -1,0 +1,3 @@
+INDEX VERSION 1.134+D:\zsync\Sync\java_spring_lecture\cotogether\workspace_stsb_4_21\.metadata\.plugins\org.eclipse.jdt.core
+1363878922.index
+2442740591.index
