@@ -1,0 +1,18 @@
+/* 1. 범용 선택자 => *는 모든 선택자 => 문서에 있는 모든 요소 */
+* { border: 1px solid blue;}
+
+/* 2. 태그 선택자 => h2, p, h3 => 태그 이름 */
+h2 { color: red; background: yellow; }
+
+/* 3. 아이디 선택자 => #아이디 => 개별적 속성(태그 아이디 속성 의미) */
+#descript { background-color: pink; }
+
+/* 4. 클래스 선택자 => .클래스 => 그룹(class)을 묶어서 속성 적용(태그 클래스) */
+.bold { font-weight: bold; }
+
+/* 5. 자식 선택자 => ul>li => ul 밑에 있는 직계 자식 요소 */
+/* ul>li { color: red; } */
+#second>li { color: red; }
+
+/* 6. 자손 선택자 => 직계(공백)자손 => 직계 + 자손 모든 요소 */
+#first li { color: bloue; }

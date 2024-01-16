@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    // 1. 단항연산자
+    // : 변수 num에 5를 할당하고, 이 변수를 사용하여 자신의 부호를 반전
+    var num = 5;
+    console.log("<1번>");
+    console.log("num 부호 반전 값 = ", num * (-1));
+
+    // 2. 이항연산자
+    // : 2개의 숫자 변수 a와 b에 각각 8과 2을 할당하고,
+    //   a, b의 곱, 몫, 나머지
+    var a = 8;
+    var b = 2;
+    console.log("<2번>");
+    console.log("a * b = ", a * b);
+    console.log("a / b 몫 = ", Math.floor(a/b));
+    console.log("a / b 나머지 = ", a % b);
+    
+    // 3. 삼항 연산자
+    // 변수 isRaining을 true 또는 false로 설정하고,
+    // 이 변수를 사용해 "비가 옵니다." 또는 "비가 오지 않습니다." 메시지 출력
+    var isRaining = true;
+    var message = (isRaining = true) ? "비가 옵니다." : "비가 오지 않습니다."
+    console.log("<3번>");
+    console.log(message);
+
+    // 4. 종합 문제
+    // : 변수 score에 학생의 점수를 할당하고,
+    //   이 변수를 사용하여 "합격" 또는 "불합격"을 판단
+    //   (합격 기준: 60점 이상)
+    var score = 65;
+    var pass = (score>=60) ? "합격" : "불합격";
+    console.log("<4번>");
+    console.log(pass);
+    // if문으로도 가능
+    // if(score>=60) {
+    //     console.log("합격");
+    // } else {
+    //     console.log("불합격");
+    // }
+
+</script>
+
+<body>
+    <h2>종합문제</h2>
+</body>
+</html>

@@ -1,0 +1,13 @@
+package vo;
+
+public class BoVo {
+	private String id;
+	private String pw;
+	private String name;
+	private String hp;
+	private String email;
+	private String hompy;
+	private String subject;
+	private String content;
+
+}

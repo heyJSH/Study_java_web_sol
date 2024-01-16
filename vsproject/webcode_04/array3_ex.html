@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>점수 3개 있을 때 합계와 평균을 구하시오</h2>
+</body>
+<script>
+    var scores = [90, 70, 85];
+
+    // 합계 함수
+    function sumScore(params) {
+        let sum = 0;
+        for(let i=0; i<params.length; i++) {
+            sum += params[i];
+        }
+        return sum;
+    }
+    // 합계 출력
+    var sum = 0;
+    console.log("합계: ", sumScore(scores));
+
+    // 평균 함수
+    function avgScore(params) {
+        let avg = 0;
+        avg = sumScore(params) / params.length;
+        return avg;
+    }
+    // 평균 출력
+    var avg = 0;
+    console.log("평균: " + avgScore(scores));
+
+
+</script>
+</html>

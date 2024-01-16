@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>1부터 100까지 짝수만 합계 구하기</h2>
+</body>
+<script>
+    // 1 3 5 7 ... 제외하고
+    // 2 4 6 8 ... 들만 모두 합하는 코드
+    // 짝수는 2로 나눈 나머지 0이다
+    // 홀수는 2로 나눈 나머지 1이다
+    let i = 1;
+    var sum = 0;
+
+    while(i<=100) {
+        if(number%2 == 0) {
+            sum += i;
+        }
+        i++;
+    }
+    console.log(sum);
+</script>
+</html>

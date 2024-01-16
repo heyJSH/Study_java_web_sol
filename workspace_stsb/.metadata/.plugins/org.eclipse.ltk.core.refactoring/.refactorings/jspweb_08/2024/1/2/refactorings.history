@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;vo.Dep.java&apos; to &apos;DepVo.java&apos;&#x0D;&#x0A;- Original project: &apos;jspweb_08&apos;&#x0D;&#x0A;- Original element: &apos;vo.Dep.java&apos;&#x0D;&#x0A;- Renamed element: &apos;vo.DepVo.java&apos;" description="Rename compilation unit &apos;Dep.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;vo{Dep.java" name="DepVo.java" references="false" stamp="1705046217896" version="1.0"/>
+</session>

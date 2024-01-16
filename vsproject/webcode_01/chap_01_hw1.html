@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>도서관 검색 페이지</h2>
+    <form action="chap_01_hw1" style="width: 580px;">
+    <table border="1">
+      <!-- style="position: relative" -->
+      <!-- 도서명 -->
+      <tr>
+        <td bgcolor="LightGray" width="150">도서명</td>
+        <td colspan="3">
+          <input type="text" size="60"/>
+        </td>
+      </tr>
+      <!-- 출판사명 -->
+      <tr>
+        <td bgcolor="LightGray">출판사명</td>
+        <td colspan="3">
+          <input type="text" size="60"/>
+        </td>
+      </tr>
+      <!-- 발행연도, 저자암호 -->
+      <tr>
+        <td bgcolor="LightGray">발행연도</td>
+        <td width="150">
+          <select name="" id="">
+            <option value="">2005년</option>
+            <option value="">2006년</option>
+            <option value="">2007년</option>
+            <option value="">2008년</option>
+            <option value="">2009년</option>
+            <option value="">2010년</option>
+            <option value="">2011년</option>
+            <option value="">2012년</option>
+            <option value="">2013년</option>
+            <option value="">2014년</option>
+            <option value="">2015년</option>
+            <option value="">2016년</option>
+            <option value="">2017년</option>
+            <option value="">2018년</option>
+            <option value="">2019년</option>
+            <option value="">2020년</option>
+          </select>
+        </td>
+        <td bgcolor="LightGray">저자암호</td>
+        <td><input type="password" size="25"/></td>
+      </tr>
+      <!-- 도서 이미지 -->
+      <tr>
+        <td bgcolor="LightGray">도서이미지</td>
+        <td colspan="3">
+          <input type="file" name="" id="" />
+        </td>
+      </tr>
+      <!-- 관련 검색단어 -->
+      <tr>
+        <td bgcolor="LightGray">관련검색단어</td>
+        <td colspan="3">
+          <input type="checkbox" name="searchWord" />웹표준
+          <input type="checkbox" name="searchWord" />에이작스
+          <input type="checkbox" name="searchWord" />자바스크립트
+          <input type="checkbox" name="searchWord" />HTML
+          <input type="checkbox" name="searchWord" />MySQL
+        </td>
+      </tr>
+      <!-- 보관 도서관 -->
+      <tr>
+        <td bgcolor="LightGray">보관 도서관</td>
+        <td colspan="3">
+          <input type="radio" name="lib" checked="checked" />도서관1
+          <input type="radio" name="lib" checked="checked" />도서관2
+          <input type="radio" name="lib" checked="checked" />도서관3
+          <input type="radio" name="lib" checked="checked" />도서관4
+          <input type="radio" name="lib" checked="checked" />도서관5
+        </td>
+      </tr>
+      <!-- 관련 제목 -->
+      <tr>
+        <td bgcolor="LightGray">관련 제목</td>
+        <td colspan="3">
+          <select multiple name="" id="">
+            <option value="">component_1</option>
+            <option value="">component_2</option>
+            <option value="">component_3</option>
+            <option value="">component_4</option>
+            <option value="">component_5</option>
+            <option value="">component_6</option>
+            <option value="">component_7</option>
+            <option value="">component_8</option>
+            <option value="">component_9</option>
+            <option value="">component_10</option>
+          </select>
+        </td>
+      </tr>
+      <!-- 설명 -->
+      <tr>
+        <td bgcolor="LightGray">설명</td>
+        <td colspan="3">
+          <textarea name="" id="" cols="62" rows="10"></textarea>
+        </td>
+      </tr>
+    </table>
+    <!-- 버튼: 검색하기, 취소하기, 목록보기 -->
+    <div style="float: right;">
+      <!--<input type="submit" value="검색하기" style="float: right" /> -->
+      <input type="submit" value="검색하기"/>
+      <input type="submit" value="취소하기" />
+      <input type="submit" value="목록보기" />
+    </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>3장 과제</h2>
+</body>
+<script>
+    // 문제 1: 더 큰 수 찾기
+    // 두 개의 숫자를 비교하여 큰 수를 출력하는 코드를 작성하세요.
+    console.log("<문제1>");
+    let a = 3;
+    let b = 10;
+    if(a>b) {
+        console.log("큰 수는: a = ", a);
+    } else {
+        console.log("큰 수는: b =", b);
+    }
+    console.log("===============================");
+
+    // 문제 2: 짝수 합 구하기
+    // 1부터 10까지의 짝수만 출력하는 코드를 작성하세요.
+    console.log("<문제2>");
+    for(let i=1; i<=10; i++) {
+        if(i%2 === 0) {
+            console.log("i = ", i);
+        }
+    }
+    console.log("===============================");
+
+    // 문제 3: 홀수 출력
+    // 1부터 10까지의 홀수의 합을 출력하는 함수 printSumOdd를 작성하세요.
+    console.log("<문제3>");
+    function printSumOdd() {
+        let sum = 0;
+        for(let i=1; i<10; i++){
+            if(i%2 === 1) {
+                console.log("i = ", i);
+                sum += i;
+            }
+        }
+        return sum;
+    }
+    
+    console.log("홀수 i의 합 = ", printSumOdd());
+    console.log("===============================");
+
+    // 문제 4: 구구단 출력
+    // 2단부터 4단까지의 구구단을 출력하는 함수 printMultiplicationTable를 작성하세요.
+    console.log("<문제4>");
+    function printMultiplicationTable() {
+        for(let i=2; i<5; i++) {
+            console.log("[" + i + "단]");
+            for(let j=1; j<10; j++) {
+                console.log(i + " x " + j + " = " + i*j);
+            }
+        }
+    }
+    printMultiplicationTable();
+    console.log("===============================");
+
+    // 문제 5: 팩토리얼 계산
+    // 주어진 숫자의 팩토리얼을 계산하는 함수 calculateFactorial를 작성하세요.
+    // num = 5
+    // 5! = 5*4*3*2*1 = 얼마
+    console.log("<문제5>");
+    console.log("[풀이1]");
+    function calculateFactorial() {
+        let num = 5;
+        let result = 1;
+        for(let i=1; i<=num; i++) {
+            result = result * i;
+        }
+        return result;
+    }
+    console.log("5! = " + calculateFactorial());
+
+    console.log("[풀이2]");
+    let num1 = undefined;
+    function factorial(num1) {
+        let result1 = 1;
+        for(let i=1; i<=num1; i++) {
+            result1 = result1 * i;
+        }
+        return result1;
+    }
+    console.log("5! = " + factorial(5));
+    console.log("===============================");
+
+</script>
+</html>

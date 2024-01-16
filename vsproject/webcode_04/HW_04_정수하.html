@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>회원가입 - validation 체크</h2>
+
+    <form>
+        <p><input type="text" name="" id="username" placeholder="아이디"></p>
+        <p>
+            <input type="password" name="" id="password" placeholder="비밀번호">
+        </p>
+        <p>
+            <input type="password" name="" id="confirmPassword" placeholder="비밀번호 확인">
+        </p>
+        <p><input type="email" name="" id="email" placeholder="이메일"></p>
+        <p>
+            <input type="button" value="회원가입" 
+            onclick="return validateForm()">
+        </p>
+    </form>
+</body>
+<script>
+    function validateForm() {
+        // 객체
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var confirmPassword = document.getElementById("confirmPassword").value;
+        var email = document.getElementById("email").value;
+        // var passwordError = document.getElementById("passwordError");
+        // var blankError = document.getElementById("blankError");
+
+        // 4개의 칸에 공백이 있으면 입력하도록 알림창 출력
+        // (ex: 아이디가 공백이면 "아이디를 입력하시오.")
+        if(!!username && !!password && !!confirmPassword && !! email) {
+            // true인 경우(null 및 undefined가 아닌 경우)
+            // 비밀번호 일치 여부 확인
+            if(password !== confirmPassword) {
+                // passwordError = alert("비밀번호가 틀립니다. 다시 입력하시오.");
+                alert("비밀번호가 틀립니다. 다시 입력하시오.");
+                return false;   // 폼 제출을 중단
+            } else {
+                // passwordError = alert("회원가입이 완료되었습니다.");
+                alert("회원가입이 완료되었습니다.");
+                return true;    // 폼 제출을 허용
+            }
+        } else {
+            // blankError = alert("공백이 있습니다. 입력 후 제출 바랍니다.");
+            alert("공백이 있습니다. 입력 후 제출 바랍니다.");
+        }
+        
+    }
+</script>
+</html>
