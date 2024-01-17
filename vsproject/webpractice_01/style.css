@@ -1,0 +1,32 @@
+/* 메뉴 스타일 */
+img {
+    width: 30px;
+    margin-left: 100px;
+    padding: 8px 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    overflow: hidden;
+    border-bottom: solid gray 1px;
+}
+li {
+    float: left;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+}
+
