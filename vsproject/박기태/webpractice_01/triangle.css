@@ -1,0 +1,25 @@
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #3498bd;
+}
+.x-mark {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.x-mark::before,
+.x-mark::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: #333;
+    transform: rotate(45deg);
+}
+
+.x-mark::after {
+    transform: rotate(-45deg);
+}
