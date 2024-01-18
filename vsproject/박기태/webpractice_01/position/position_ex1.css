@@ -1,0 +1,40 @@
+/* 부모의 부모를 만들어서 absolute를 사용해보기 */
+
+.wrap {
+    width: 400px;
+    height: 500px;
+    background-color: purple;
+    position: relative;
+}
+
+.wrap .container {
+    width: 300px;
+    background-color: royalblue;
+    position: relative;
+}
+
+.wrap .container .item {
+    border: 4px dashed red;
+}
+
+.wrap .container .item:nth-child(1) {
+/* .container .item:first-child { */
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.wrap .container .item:nth-child(2) {
+    width: 150px;
+    height: 90px;
+    background-color: orange;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.wrap .container .item:nth-child(3) {
+    width: 80px;
+    height: 150px;
+    background-color: brown;
+}
