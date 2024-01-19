@@ -1,0 +1,23 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    /* transition: 요소의 전환(시작과 끝) 효과를 지정하는 단축 속성 */
+    transition: 
+        background-color 1s, 
+        /* width .3s ease-in; */
+        /* => 아래 코드는 ease-in과 같은 의미 */
+        width .3s cubic-bezier(0.17, .67, .68, .13) 1s; 
+           
+}
+/* hover => 마우스를 위로 올리면 작동 */
+div:hover {
+    width: 300px;
+    background-color: orange;
+}
+
+/* active => 마우스를 클릭하면 작동 */
+/* div:active {
+    width: 300px;
+    background-color: orange;
+} */

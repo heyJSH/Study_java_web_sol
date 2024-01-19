@@ -1,0 +1,45 @@
+.container {
+    background-color: royalblue;
+    display: flex;
+    margin-bottom: 10px;
+    height: 350px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-content: 교차 축의 여러 줄 정렬 방법
+       stretch => 시작점으로 정렬(default)
+       flex-start => 시작점으로 정렬
+       flex-end => 끝점으로 정렬
+       center => 가운데 정렬 */
+    /* align-content: center; */
+
+    /* align-items: 교차 축의 한 줄 정렬 방법
+       stretch => 교차 축으로 늘림
+       flex-start => 각 줄의 시작점으로 정렬
+       flex-end => 각 줄의 끝점으로 정렬
+       center => 각 줄의 가운데 정렬 
+       baseline => 각 줄의 문자 기준선에 정렬 */
+    justify-content: center;
+    align-items: center;
+
+    /* 글자 중앙 정렬 */
+    text-align: center;
+}
+.container .item {
+    /* 글자 수직 중앙 정렬을 위해 flex 지정 */
+    display: flex;
+    width: 100px;
+    /* flex 안에서는 밑으로 늘어지는 경향이 있으므로, height 지정 */
+    height: 100px;
+    border: 4px dotted red;
+    background-color: orange;
+    /* 글자 수직 중앙 정렬 */
+    justify-content: center;
+    align-items: center;
+}
+/* order */
+.container .item:nth-child(1) {
+    order: 15;
+}
+.container .item:nth-child(2) {
+    order: 14;
+}

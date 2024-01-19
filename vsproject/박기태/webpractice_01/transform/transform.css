@@ -1,0 +1,29 @@
+body {
+    padding: 100px;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;      
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transition: transform 1s;
+}
+
+.item:hover {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    /* transform => position 말고도 사용 가능한 위치 변경 */
+    /* transform: translateX(50px) rotate(45deg) scale(1); */
+    /* perspective: 원근법 */
+    /* transform: perspective(200px) translateX(0px) scale(1) rotate(45deg); */
+    /* skewX or skewY => 기울기 */
+    transform: skewY(-45deg);
+}
+
