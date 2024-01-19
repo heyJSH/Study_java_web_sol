@@ -1,0 +1,27 @@
+body {
+    padding: 100px;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    background-color: royalblue;      
+}
+
+.item {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: brown;
+    font-weight: 600;
+    /* 글씨 뒤집기 */
+    /* transform: rotateY(180deg); */
+
+    /* backface-visibility: 3D 변환으로 회전된 요소의 뒷면 숨김 여부
+ */
+    backface-visibility: hidden;
+}
