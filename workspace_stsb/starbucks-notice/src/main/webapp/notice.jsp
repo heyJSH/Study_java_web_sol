@@ -334,7 +334,7 @@
 <% 		 		
 	 	}
   } catch(Exception e) {
-	  System.out.println("오라클 접속 오류:" + e);
+	  	System.out.println("오라클 접속 오류:" + e);
   }
 %>
 
