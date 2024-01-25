@@ -1,9 +1,7 @@
 INDEX VERSION 1.134
-D:\work\java_web_sol\workspace_stsb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1873631795.index
+D:\work\java_web_sol\Study_java_web_sol\workspace_stsb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1873631795.index
 \jspweb_07\src\main\java
-D:\work\java_web_sol\workspace_stsb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2838456806.index
+D:\work\java_web_sol\Study_java_web_sol\workspace_stsb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2838456806.index
 \jspweb_08\src\main\java
-D:\work\java_web_sol\Study_java_web_sol\workspace_stsb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\156895349.index
-\starbucks-notice\src\main\java
-D:\work\java_web_sol\workspace_stsb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\780772005.index
+D:\work\java_web_sol\Study_java_web_sol\workspace_stsb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\780772005.index
 \jspweb_09\src\main\java

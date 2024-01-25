@@ -1,1 +1,3 @@
 INDEX VERSION 1.134
+file:/D:/work/java_web_sol/Study_java_web_sol/workspace_stsb/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+meta_index
