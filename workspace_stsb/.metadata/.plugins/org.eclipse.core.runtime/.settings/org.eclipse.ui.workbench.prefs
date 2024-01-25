@@ -19,7 +19,7 @@ org.eclipse.jface.textfont=1|\uB098\uB214\uACE0\uB515\uCF54\uB529|12.0|0|WINDOWS
 org.eclipse.mylyn.wikitext.ui.presentation.textFont=1|\uB098\uB214\uACE0\uB515\uCF54\uB529|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|49|\uB098\uB214\uACE0\uB515\uCF54\uB529;
 org.eclipse.pde.internal.ui.compare.ManifestContentMergeViewer=1|\uB098\uB214\uACE0\uB515\uCF54\uB529|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|49|\uB098\uB214\uACE0\uB515\uCF54\uB529;
 org.eclipse.pde.internal.ui.compare.PluginContentMergeViewer=1|\uB098\uB214\uACE0\uB515\uCF54\uB529|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|49|\uB098\uB214\uACE0\uB515\uCF54\uB529;
-org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+O"/>\r\n</org.eclipse.ui.commands>
+org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands>\r\n<activeKeyConfiguration keyConfigurationId\="IntelliJIdeaKeymap4EclipseScheme"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+O"/>\r\n</org.eclipse.ui.commands>
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=37,41,45
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR=204,204,204
 org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=37,41,45

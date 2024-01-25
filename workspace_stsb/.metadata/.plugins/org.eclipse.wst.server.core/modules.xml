@@ -3,4 +3,5 @@
   <module moduleId="org.eclipse.jst.jee.server:jspweb_09" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:jspweb_08" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:jspweb_07" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:starbucks-notice" serverId="Tomcat v9.0 Server at localhost-starbucks"/>
 </modules>
